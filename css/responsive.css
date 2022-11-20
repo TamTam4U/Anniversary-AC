@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 30px;
+    }
+
+    .about {
+        box-sizing: border-box;
+        padding: 40px;
+    }
+
+    .balon p {
+        text-align: center;
+    }
+
+    .galery-img {
+        /* background-color: red; */
+        justify-content: center;
+    }
+
+    .wrapmember {
+        background-position-y: 0px;
+    }
+
+}

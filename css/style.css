@@ -1,0 +1,528 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+  /* overflow: hidden; */
+}
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap");
+
+.header {
+  background-image: url("../img/Mask group.png");
+  /* width: 100%; */
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.text {
+  text-align: center;
+}
+
+.text-name {
+  font-family: "Inknut Antiqua";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 66px;
+  line-height: 170px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.text-wed {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  max-width: 758px;
+  margin: auto;
+  color: #292929;
+  /* align-items: stretch; */
+  /* padding-top: 157px; */
+}
+
+.about {
+  background-image: url("../img/A\ holiday\ survival\ guide\ for\ plant\ murderers\ 1.png");
+  width: 100%;
+  /* max-height: 1010px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  padding: 200px;
+  box-sizing: border-box;
+}
+
+.affan-img {
+  width: 281.32px;
+  height: 309.69px;
+  /* left: 277px;
+  top: 975px; */
+  overflow: hidden;
+  margin: auto;
+  background: #d9d9d9;
+  border-radius: 150px 150px 0px 0px;
+}
+
+.nama {
+  font-family: "Inknut Antiqua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 62px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #292929;
+}
+
+.profesi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #292929;
+}
+
+.igeh {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #292929;
+}
+
+.dan {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 160px;
+  line-height: 240px;
+  display: none;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #292929;
+}
+.affan {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  text-align: center;
+  /* width: 50%; */
+  justify-content: center;
+
+  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+  /* text-align: center; */
+}
+
+.affan2{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  text-align: center;
+  /* width: 50%; */
+  justify-content: center;
+
+  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+}
+.profile {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* display: none; */
+}
+
+
+.balon i {
+  font-size: 134px;
+  transition: 1s ease;
+}
+
+.balon i:hover{
+  color: #BC6C90;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.balon {
+  margin-top: 173px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* display: none; */
+}
+.balon p {
+  font-family: "Inknut Antiqua";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 70px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.galery {
+  background-image: url("../img/Rectangle\ 4.png");
+  width: 100%;
+  height: 144px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galery2 {
+  background-image: url(../img/mak-Rvizn0M8s7Y-unsplash.jpg);
+  width: 100%;
+  height: 144px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galery2 h1 {
+  font-family: "Inknut Antiqua";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 57px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.galery h1 {
+  font-family: "Inknut Antiqua";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 70px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.img-container {
+  /* background-color: red; */
+  margin: 10px;
+  width: 268px;
+  height: 336px;
+  border-radius: 20px;
+}
+.galery-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* height: 452px; */
+  flex-wrap: wrap;
+  /* left: -15px;
+  top: 1782px; */
+
+  /* background: #414A45; */
+  /* background-color: red; */
+}
+#playMusic {
+  display: none;
+}
+
+.wrapgallery {
+  background-image: url(../img/kristaps-ungurs-uiAd3yYODnM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card1 {
+  background-image: url("../img/foto.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card3 {
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card4 {
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card5 {
+  background-image: url("../img/4.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card6 {
+  background-image: url("../img/6.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card7 {
+  background-image: url("../img/7.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card8 {
+  background-image: url("../img/8.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card9 {
+  background-image: url("../img/9.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.card10 {
+  background-image: url("../img/10.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.member-container {
+  /* background-image: url(../img/mathias-reding-12v4JfnjlTQ-unsplash.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-color: #6A6F6B; */
+  /* width: 100%; */
+  /* height: 306px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-member {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.member-text {
+  font-family: "Inknut Antiqua";
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapmember {
+  background-image: url(../img/devi-puspita-amartha-yahya--BC1bZVXM5A-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -50px;
+}
+
+
+
+.mem1 {
+  background-image: url("../img/rei.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+
+.mem2 {
+  background-image: url("../img/tara.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+
+.mem3 {
+  background-image: url("../img/dinda.jpeg");
+  background-size: cover;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+
+.mem4 {
+  background-image: url("../img/arum.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mem5 {
+  background-image: url("../img/monic.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem6 {
+  background-image: url("../img/Murli.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem7 {
+  background-image: url("../img/marta.jpeg");
+  background-size: cover;
+  background-position-x: -50px;
+  background-repeat: no-repeat;
+}
+.mem8 {
+  background-image: url("../img/micel.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem9 {
+  background-image: url("../img/najib.jpeg");
+  background-size: 200%;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem10 {
+  background-image: url("../img/iam.jpeg");
+  background-size: 300%;
+  background-position-y: -270px;
+  background-position-x: -125px;
+  background-repeat: no-repeat;
+}
+.mem11 {
+  background-image: url("../img/irsan.jpeg");
+  background-size: 200%;
+  background-position: center;
+  background-position-x: -60px;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem18 {
+  background-image: url("../img/wak.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+
+.mem19 {
+  background-image: url("../img/tama.JPG");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem20 {
+  background-image: url("../img/fahmi2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: -7px;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem12 {
+  background-image: url("../img/rozloy.jpg");
+  background-size: cover;
+  background-position-y: -90px ;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem13 {
+  background-image: url("../img/ando.jpeg");
+  background-size: 180%;
+  background-position: center;
+  background-position-x: -50px ;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem14 {
+  background-image: url("../img/robi.jpeg");
+  background-size: 200%;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem15 {
+  background-image: url("../img/Rafi.jpeg");
+  background-size: cover;
+  background-position-y: -80px ;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+.mem16 {
+  background-image: url("../img/pandu.jpeg");
+  background-size: 150%;
+  background-position: center;
+  background-position-x: -5px;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
+.mem17 {
+  background-image: url("../img/Ical.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y:center; */
+  background-repeat: no-repeat;
+}
